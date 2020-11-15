@@ -97,7 +97,11 @@
 #include <sys/sysmacros.h>
 #endif	/* _AIX */
 
-#if !defined (major) && !defined (__G__)
+#ifdef __linux__
+#include <sys/sysmacros.h>
+#endif
+
+#if !defined (major) && !defined (__G__) && 0
 #include <sys/mkdev.h>
 #endif	/* !major */
 

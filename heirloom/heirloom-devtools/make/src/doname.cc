@@ -72,7 +72,7 @@
 
 #include <signal.h>
 
-#if defined (__sun) || defined (__linux__)
+#if defined (__sun)
 #	include <stropts.h>
 #endif
 

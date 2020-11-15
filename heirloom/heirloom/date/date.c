@@ -135,7 +135,7 @@ badtime:
 }
 
 #if defined (__FreeBSD__) || defined (__NetBSD__) || defined (__OpenBSD__) || \
-	defined (__DragonFly__) || defined (__APPLE__)
+    defined (__DragonFly__) || defined (__APPLE__) || defined(__linux__)
 static int
 stime(time_t *t)
 {

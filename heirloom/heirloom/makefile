@@ -10,7 +10,7 @@ SUBDIRS = build libwchar libcommon libuxre _install \
 	getconf getopt grep groups hd head hostname id join \
 	kill line listusers ln logins logname ls \
 	mail man mesg mkdir mkfifo mknod more mvdir \
-	nawk news nice nl nohup oawk od \
+	news nice nl nohup  od \
 	paste pathchk pg pgrep pr printenv printf priocntl ps psrinfo pwd \
 	random renice rm rmdir \
 	sdiff sed setpgrp shl sleep sort spell split stty su sum sync \

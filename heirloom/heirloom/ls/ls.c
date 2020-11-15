@@ -119,7 +119,7 @@ static char ifmt_c[] = "-pc-d-b--nl-SD--";
 #include <termcap.h>
 #endif	/* USE_TERMCAP */
 
-#ifdef	_AIX
+#if defined(_AIX) || defined(__linux__)
 #include <sys/sysmacros.h>
 #endif
 

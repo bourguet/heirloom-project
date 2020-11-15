@@ -96,7 +96,7 @@ static const char sccsid[] USED = "@(#)tar.sl	1.180 (gritter) 10/9/10";
 #include <sys/st01.h>
 #endif	/* SVR4.2MP */
 
-#ifdef	_AIX
+#if defined(_AIX) || defined(__linux)
 #include <sys/sysmacros.h>
 #endif
 

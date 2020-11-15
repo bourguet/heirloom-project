@@ -80,7 +80,7 @@ static const char sccsid[] USED = "@(#)find.sl	1.45 (gritter) 5/8/06";
 #include <sys/param.h>
 #include <sys/mount.h>
 #endif
-#ifdef	_AIX
+#if defined(_AIX) || defined(__linux__)
 #include <sys/sysmacros.h>
 #endif
 #ifndef	major
